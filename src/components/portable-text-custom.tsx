@@ -17,7 +17,7 @@ export default function PortableTextCustom({ content }: { content: any }) {
           headingColor: ({ children }: { children: ReactNode }) => (
             <p className="text-sky-600 font-semibold text-lg">{children}</p>
           ),
-        },
+        } as any,
         marks: {
           center: ({ children }: { children: ReactNode }) => (
             <div className="flex justify-center items-center text-center w-full">
