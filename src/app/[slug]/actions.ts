@@ -27,7 +27,7 @@ export const addToCart = async (payload: {
   let data = null;
 
   if (itemFind) {
-    itemFind.quantity += 1;
+    itemFind.quantity! += 1;
   } else {
     products?.push({
       name: dataProduct?.name,
