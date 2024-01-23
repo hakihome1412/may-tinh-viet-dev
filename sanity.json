@@ -1,0 +1,11 @@
+{
+    "root": true,
+    "project": {
+        "name": "Máy Tính Việt",
+        "basePath": "/admin"
+    },
+    "api": {
+        "projectId": "u40bnlt1",
+        "dataset": "development"
+    }
+}
